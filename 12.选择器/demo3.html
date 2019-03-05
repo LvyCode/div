@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.box{
+			width: 200px;
+			height: 100px;
+			background-color: pink;
+		}
+		/*.box:first-letter{
+			color: red;
+		}*/
+		/*.box:first-line{
+			color: red;
+		}*/
+		.box::selection{
+			color: red;
+			background-color: #000;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">我是百度我是百度我是百度我是百度我是百度</div>
+<!-- 
+	伪元素选择器
+	   :first-letter 选到元素的第一个文字
+	   :first-line   选到元素的第一行文字
+	   :before       在元素内容前面插入内容
+	   :after        在元素内容后面插入内容
+
+	        box-shadow:x y blur spread color
+	                   x 控制阴影的水平位移
+	                   y 控制阴影的竖直位移
+	                   blur 控制阴影的模糊程度
+	                   spread 控制阴影的大小
+	                   color 控制阴影的颜色
+	   ::selection   选到被用户选到的元素
+
+推荐的代码顺序   本节课重点！！
+1.布局定位属性	content/display/position(对应的方位值)/float/overflow/list-style…
+2.自身属性           	 	width/height/padding/margin/background/border/…
+3.文字属性 			color/font/text-align/text-decoration/vertical-align/…
+4.其他/css3新增属性	 	cursor/border-radius/box-shadow/text-shadow/…
+
+    
+
+ -->
+</body>
+</html>

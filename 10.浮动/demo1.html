@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- 
+		什么是普通流
+		普通流指的是元素在网页排版的过程中遵循的规则
+		* 块级元素从上到下
+		* 行内/行内块元素从左向右（文字从左向右）
+
+		float值：  设置元素浮动
+		   left    元素向父级元素左端浮动
+		   right   元素向父级元素右端浮动
+		   none   （默认）元素不浮动
+	 -->
+	 <style type="text/css">
+	 	*{
+	 		margin: 0;
+	 		padding: 0;
+	 	}
+	 	.box{
+	 		width: 900px;
+	 		/*height: 800px;*/
+	 		background-color: #ccc;
+	 	}
+	 	.box1{
+	 		float: left;
+	 		width: 100px;
+	 		height: 80px;
+	 		background-color: pink;
+	 	}
+	 	.box2{
+	 		float: left;
+	 		width: 10px;
+	 		height: 100px;
+	 		background-color: green;
+	 	}
+	 	.box3{
+	 		float: left;
+	 		width: 200px;
+	 		height: 80px;
+	 		background-color: yellow;
+	 	}
+	 	.box4{
+	 		float: left;
+	 		width: 200px;
+	 		height: 80px;
+	 		background-color: blue;
+	 	}
+	 	span{
+	 		float: left;
+	 		width: 100px;
+	 		height: 100px;
+	 		padding: 20px;
+	 		margin: 10px;
+	 		margin: auto;
+	 		background-color: #66ffcc;
+
+	 	}
+	 	/*.on{
+			clear: left;
+		}*/
+		/*清除浮动的类名*/
+		/*.clearfix:after{
+			content: '';
+			display: block;
+			clear: both;
+		}*/
+		.box5{
+			width: 200px;
+			height: 100px;
+			background-color: red;
+		}
+
+	 </style>
+</head>
+<body>
+	<div class="box clearfix">
+		
+	<div class="box1"></div>
+	<div class="box2"></div>
+	<div class="box3"></div>
+	<div class="box4"></div>
+
+	</div>
+	<div class="box5"></div>
+	<!-- 
+		面试题  float元素为什么支持宽高  float把 display: inline-block
+		float的影响：
+		    对于父级来说   高度为0
+		    对于自身       inline-block
+		       可以支持width/height/margin/padding   不支持margin:auto 理论上  computed面板中display   是 inline-block
+		       生成BFC环境（块级格式化上下文）BFC是一种布局环境 
+		          什么属性可以生成BFC环境
+		               display:inline-block
+		               float:left 或者 float:right
+		               position:absolute或者position:fixed
+		               overflow:hidden
+		               根标签（html标签)
+
+		       脱离普通流
+		 float的注意事项
+		     如果很多浮动元素的宽度之和大于父级盒子，那后面的浮动元素会在下一行重新排列。
+		     特殊情况：
+		       如果浮动元素的高度不一样，那后面的浮动元素会漂浮到能够放下这个元素的位置
+
+	 -->
+</body>
+</html>
