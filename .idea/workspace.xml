@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f7e78b6-4f26-4a62-ba86-e6489780fec8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/11 a标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.伪类、元素显示类型、样式初始化、盒子模型/4.元素的类型显示.html" beforeDir="false" afterPath="$PROJECT_DIR$/6.伪类、元素显示类型、样式初始化、盒子模型/4.元素的类型显示.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/盒子模型一/1.demo.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,32 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/6.伪类、元素显示类型、样式初始化、盒子模型/4.元素的类型显示.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
-              <folding>
-                <element signature="n#style#0;n#video#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/11 a标签.html">
+        <entry file="file://$PROJECT_DIR$/盒子模型一/1.demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="135">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -93,14 +70,15 @@
         <option value="$PROJECT_DIR$/6.伪类、元素显示类型、样式初始化、盒子模型/3.元素类型显示.html" />
         <option value="$PROJECT_DIR$/6.伪类、元素显示类型、样式初始化、盒子模型/4.元素的类型显示.html" />
         <option value="$PROJECT_DIR$/11 a标签.html" />
+        <option value="$PROJECT_DIR$/盒子模型一/1.demo.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="383" />
-    <option name="y" value="23" />
-    <option name="width" value="897" />
-    <option name="height" value="705" />
+    <option name="x" value="549" />
+    <option name="y" value="182" />
+    <option name="width" value="774" />
+    <option name="height" value="542" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -114,6 +92,11 @@
             <path>
               <item name="div" type="b2602c69:ProjectViewProjectNode" />
               <item name="div" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="div" type="b2602c69:ProjectViewProjectNode" />
+              <item name="div" type="462c0819:PsiDirectoryNode" />
+              <item name="盒子模型一" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -197,17 +180,18 @@
       <workItem from="1554536290955" duration="1036000" />
       <workItem from="1555659080351" duration="568000" />
       <workItem from="1556939561213" duration="1345000" />
+      <workItem from="1564479081846" duration="180000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27018000" />
+    <option name="totallyTimeSpent" value="27198000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="383" y="23" width="897" height="705" extended-state="0" />
+    <frame x="638" y="182" width="774" height="542" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1324201" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26693228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -343,9 +327,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/11 a标签.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/6.伪类、元素显示类型、样式初始化、盒子模型/4.元素的类型显示.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
+        <state relative-caret-position="450">
           <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
           <folding>
             <element signature="n#style#0;n#video#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -360,10 +351,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/11 a标签.html">
+    <entry file="file://$PROJECT_DIR$/盒子模型一/1.demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="135">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
