@@ -3,16 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <style>
-        .box-one{
-            width: 300px;
-            height: 200px;
+    <style>/**/
+        .box-one{/**/
+            width: 0px;
+            height: 0px;
             background: green;
+            /* border-width: 30px;设置边框宽度*/
+            /* border-style: solid;设置边框样式：solid 实心线*/
+            /* border-color: pink;*/
+            /*border: 30px solid pink;*/
+
+            /*border-top-color: red;*/
+            /*border-top-width: 20px;*/
+            /*border-top-style: solid;*/
+
+            border-top: 50px solid red;
+
+            /*border-right-color: pink;*/
+            /*border-right-width: 20px;*/
+            /*border-right-style: solid;*/
+
+            border-right: 50px solid transparent;
+
+            /*border-left-color: yellow;*/
+            /*border-left-width: 20px;*/
+            /*border-left-style: solid;*/
+            border-left: 50px solid yellow;
+
+            /*border-bottom-color: rebeccapurple;*/
+            /*border-bottom-width: 20px;*/
+            /*border-bottom-style: solid;*/
+
+            border-bottom: 50px solid mediumvioletred;
+
         }
-    </style>
+</style>
 </head>
 <body>
 
    <div class="box-one"></div>
+<!--
+   单一写法：
+    border-width  设置边框宽度
+    border-style  设置边框样式
+    border-color  设置边框颜色
+
+   复合写法：
+    border: 30px solid pink;
+-->
+
 </body>
 </html>
